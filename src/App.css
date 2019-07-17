@@ -1,0 +1,254 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  background-color: #2C2F33;
+}
+
+.nav {
+  width: 1000px;
+  color: white;
+  opacity: 0.8;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.nav img {
+  width: 123.8px;
+  height: 20px;
+}
+
+.nav i {
+  width: 2px;
+  height: 18px;
+  float: left;
+  background: white;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 52px;
+  margin: 0 10px;
+  opacity: 0.8;
+}
+
+.nav-li {
+  width: 86px;
+  line-height: 52px;
+  font-size: 14px;
+  white-space: pre;
+}
+
+.nav-li:hover {
+  color: #F37327;
+}
+
+.login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+  width: 340px;
+  line-height: right;
+}
+
+.main {
+  flex: 1;
+}
+
+.main-top {
+  width: 100%;
+  height: 478px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: column;
+  align-items: center;
+}
+
+.main-top img {
+  vertical-align: middle;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+.main-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgba(31,56,88,0.4);
+}
+
+.main-center {
+  position: absolute;
+  width: 490px;
+  height: 296px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-center p {
+  font-size: 54px;
+  height: 56px;
+  line-height: 56px;
+  margin: 0px;
+  color: #fff;
+  line-height: 56px;
+  font-family: ;
+}
+
+.main-center p:nth-child(3) {
+  font-size: 34px;
+  margin-bottom: 38px;
+  font-family: PingFangSC-Thin;
+}
+
+.search-bg {
+  width: 490px;
+  height: 60px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 10px solid rgba(255, 255, 255, 0.1); */
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.search-bg input {
+  /* position: absolute; */
+  background: white;
+  height: 40px;
+  width: 368px;
+  font-size: 14px;
+  /* left: 10px; */
+  box-sizing: border-box;
+  argin-left: 10px;
+  border: 0px;
+  border-radius: 3px;
+  padding-left: 12px;
+}
+
+.search-bg input::-webkit-input-placeholder {
+  line-height: 20px;
+  color: rgba(31,56,88,0.30);
+  margin-left: 8px;
+}
+
+.search-bg button {
+  color: #fff;
+  background: #F37327;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  width: 92px;
+  height: 40px;
+  border: 0px;
+  border-radius: 3px;
+  /* margin-top: 10px;
+  margin-left: 10px; */
+}
+
+.main-center ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 12px;
+  color: white;
+  opacity: 0.8;
+  position: absolute;
+  bottom: 0px;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+.main-center ul li {
+  width: 40px;
+}
+
+.main-center ul li:hover {
+  color: #F37327;
+}
+
+.main-center ul li:first-child {
+  width: 60px;
+}
+
+.main-bottom {
+  width: 1180px;
+  height: 300px;
+  margin: 32px auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.main-bottom-image {
+  width: 310px;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.main-bottom-image div {
+  width: 310px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  background: #FFFFFF;
+  box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+  border-radius: 3px;
+}
+
+.main-bottom-image div img {
+  width: 179px;
+  height: 68px;
+}
+
+.main-bottom-image div:last-child img {
+  width: 260px;
+  height: 36px;
+}
+
+footer {
+  height: 44px;
+  width: 100%;
+  text-align: center;
+  background-color: #2C2F33;
+  position: absolute;
+  bottom: 0px;
+  font-family: PingFangSC-Regular;
+  line-height: 44px;
+  color: white;
+  font-size: 12px;
+  /* opacity: 0.4; */
+}
+
+footer span {
+  opacity: 0.4;
+}
